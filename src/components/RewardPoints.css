@@ -1,0 +1,50 @@
+.reward-points-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .points-info {
+    margin-bottom: 20px;
+  }
+  
+  .points {
+    font-weight: bold;
+    color: #fa57c9;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-points-button,
+  .redeem-points-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-points-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .add-points-button:hover {
+    background-color: #218838;
+  }
+  
+  .redeem-points-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .redeem-points-button:hover {
+    background-color: #c82333;
+  }
+  

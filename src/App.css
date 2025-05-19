@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.logo {
+  height: 40px;
+}
+
+.app-bar {
+  background-color: #fa82b6;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-buttons .MuiButton-root {
+  margin-left: 1rem;
+}

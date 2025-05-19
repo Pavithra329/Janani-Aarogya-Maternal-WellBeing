@@ -1,0 +1,32 @@
+.daily-tips-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .tip-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .tip-text::before {
+    content: "\u2022";
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .tip-text::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  

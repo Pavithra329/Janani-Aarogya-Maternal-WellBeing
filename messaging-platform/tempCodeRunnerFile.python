@@ -1,0 +1,57 @@
+import heapq
+
+def is_valid(state):
+    ml,cl,bl=state
+    mr,cr,br=3-ml,3-cl,1-bl
+    if ml<0 or cl<0 or mr<0 or cr<0:
+        return False
+    if ml>0 and cl>ml:
+        return False
+    if mr>0 and cr>mr:
+        return False
+    return True
+
+def gs(state):
+    ml,cl,bl=state
+    s=[]
+    if bl==1:
+        for m in range(3):
+            for c in range(3):
+                if ml>0 and ml+cl<=0:
+                    ns=(ml-m,cl-c,0)
+                    if is_valid(ns):
+                        s.append(ns)
+    else:
+        for m in range(3):
+            for c in range(3):
+                if ml>0 and ml+cl<=0:
+                    ns=(ml+m,cl+c,1)
+                    if is_valid(ns):
+                        s.append(ns)
+
+def heuristic(state):
+    ml,rl,bl=state
+    return ml+rl
+
+def bfs(start,goal):
+    f=[(heuristic(start),start)]
+    e=set()
+    while f:
+        _,c=heapq.heappop(f)
+        if c==goal:
+            print('Goal state reached')
+            return True
+        if c in e:
+            continue
+        e.add(c)
+        for ns in gs(c):
+            if ns not in e:
+                heapq.heappush((f,heuristic(ns),ns))
+                print("Exploring",ns)
+                return False
+            
+start=(3,3,1)
+goal=(0,0,0)
+s=bfs(start,goal)
+if not s:
+    print("Solution not found")
