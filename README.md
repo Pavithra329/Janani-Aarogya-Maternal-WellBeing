@@ -39,36 +39,15 @@ It also offers **interactive community forums** where mothers can share experien
 ---
 
 ### Features:
+
+- **🤖 Chatbot Assistance** – Interactive AI-powered chatbot answering maternal healthcare queries in real-time.  
+- **💊 Medicine Purchase** – Easy-to-use interface for browsing and purchasing essential medicines.  
+- **🌸 Daily Motivation** – Personalized motivational quotes and wellness reminders to uplift mothers.  
+- **👩‍⚕️ Expert Health Advice** – Direct access to advice and guidance from certified healthcare experts.  
+- **🎮 Gamification & Rewards** – Fun activities and point-based rewards system to encourage healthy habits.  
+- **👩‍👩‍👧 Community Forums** – Safe, supportive space for mothers to share their experiences and connect with others.  
+
 <img width="1725" height="818" alt="image" src="https://github.com/user-attachments/assets/ea482f32-9674-478f-94a3-ccac4b52a18a" />
-
----
-
-#### 🤖 Chatbot Assistance – *Interactive AI-powered chatbot answering maternal healthcare queries in real-time.*  
-<img width="1697" height="802" alt="image" src="https://github.com/user-attachments/assets/fbda7184-aba5-4929-b78c-c4f0deb9a5cd" />
-
----
-
-#### 💊 Medicine Purchase – *Easy-to-use interface for browsing and purchasing essential medicines.*
-<img width="1224" height="846" alt="image" src="https://github.com/user-attachments/assets/4fe78eb0-36d0-4f07-933b-517c9c123db4" />
-
----
-
-#### 🌸 Daily Motivation – *Personalized motivational quotes and wellness reminders to uplift mothers.* 
-<img width="1563" height="843" alt="image" src="https://github.com/user-attachments/assets/63251dc2-fb55-4330-a181-9dd71cdedac3" />
-
----
-
-#### Pregnancy Milestones - *An interactive Pregnancy Milestones tracker that guides mothers month-by-month with personalized health tips and insights.*
-<img width="1714" height="791" alt="image" src="https://github.com/user-attachments/assets/b5a6925d-7927-42e5-ad9d-0a0b0bf80388" />
-
----
-
-#### 👩‍⚕️ Expert Health Advice – *Direct access to advice and guidance from certified healthcare experts.*  
-<img width="1722" height="830" alt="image" src="https://github.com/user-attachments/assets/e3977050-d04f-4e5a-a134-5e62c56e0072" />
----
-
-#### 🎮 Gamification & Rewards – *Fun activities and point-based rewards system to encourage healthy habits.*
-<img width="1219" height="843" alt="image" src="https://github.com/user-attachments/assets/aa39a4d8-3576-4b21-bbe7-393183921ec7" />
 
 ---
 
